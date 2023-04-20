@@ -1,0 +1,56 @@
+
+/*====  GENERAL ====*/
+
+*, *::before, *::after {
+	font-family: 'Nunito', sans-serif !important;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+}
+
+:root ul::-webkit-scrollbar,
+:root textarea::-webkit-scrollbar,
+:root div::-webkit-scrollbar,
+:root article::-webkit-scrollbar,
+:root nav::-webkit-scrollbar {
+    width: 0.4rem;
+    border-radius: 0.4rem;
+    background-color: #11142b;
+}
+:root ul::-webkit-scrollbar-thumb,
+:root textarea::-webkit-scrollbar-thumb,
+:root div::-webkit-scrollbar-thumb,
+:root article::-webkit-scrollbar-thumb,
+:root nav::-webkit-scrollbar-thumb {
+    background-color: #080a1c;
+    border-radius: 0.4rem;
+}
+:root div,
+:root textarea,
+:root div,
+:root article,
+:root ul,
+:root nav {
+    scrollbar-width: 0.4rem;
+    scrollbar-color: #080a1c #11142b;
+}
+
+
+/*NAVIGATION*/
+.navigation__title {
+	font-size: 0.6rem;
+}
+.menu__link:hover, .menu__link.active {
+	background-color: #080a1c;
+	color: white;
+}
+.link__badge {
+	top: 50%;
+	font-size: 0.6rem;
+}
+
+/*TABLEAU*/
+select#Per-page {
+	width: 5rem;
+}

@@ -1,0 +1,1 @@
+ <img class="w-32 h-32 rounded-full mx-auto" src="{{asset('/images/logo.jpg')}}" alt="logo" width="100" height="100">
